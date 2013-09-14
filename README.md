@@ -1,4 +1,4 @@
 xichuangzhu_android
 ===================
 
-Android App for xichuangzhu.
+Android App for 西窗烛.
