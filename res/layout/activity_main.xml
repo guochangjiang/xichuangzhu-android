@@ -1,0 +1,67 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadingEdge="vertical"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:scrollbarStyle="outsideInset"  
+        android:scrollbars="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <TextView
+            android:id="@+id/work_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="青玉案-元夕"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/work_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="17dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="〔宋〕辛弃疾"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/work_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:lineSpacingExtra="1dp"
+            android:lineSpacingMultiplier="1.5"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text=""
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="题解"
+            android:textColor="#AD1616"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/work_intro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.3"
+            android:text="这首词是都城元夕观灯所作，宋人习俗，元夕放灯，从正月十四日夜开始，至十六日夜结束。南宋都城临安（今浙江杭州）同汴（biàn）京一样，无论是皇宫、官署、贵臣府第还是普通百姓，都制作灯山，悬放灯火，杂陈百戏，供游人士女观看。本词应当是作者乾道七年（1171）正月居官临安人司农寺主簿时所作。"
+            android:textColor="#555" />
+    </LinearLayout>
+
+</ScrollView>
