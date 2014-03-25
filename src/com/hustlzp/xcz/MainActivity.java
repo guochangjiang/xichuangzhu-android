@@ -77,8 +77,8 @@ public class MainActivity extends Activity {
 		mWorkContentTextView.getPaint().setFakeBoldText(true);
 		mWorkContentTextView
 				.setText(Html
-						.fromHtml("&nbsp;&nbsp;&nbsp;&nbsp;¶«·çÒ¹·Å»¨Ç§Ê÷<sup><small><small>¡²1¡³</small></small></sup>£¬¸ü´µÂä¡¢ÐÇÈçÓê<sup><small><small>¡²2¡³</small></small></sup>¡£±¦Âíµñ³µÏãÂúÂ·¡£·ïóïÉù¶¯£¬Óñºø¹â×ª£¬Ò»Ò¹ÓãÁúÎè<sup><small><small>¡²3¡³</small></small></sup>¡£  ¶ê¶ùÑ©Áø»Æ½ðÂÆ<sup><small><small>¡²4¡³</small></small></sup>£¬Ð¦ÓïÓ¯Ó¯°µÏãÈ¥¡£ÖÚÀïÑ°ËûÇ§°Ù¶È£¬ÝëÈ»»ØÊ×£¬ÄÇÈËÈ´ÔÚ£¬µÆ»ðÀ»Éº´¦<sup><small><small>¡²5¡³</small></small></sup>¡£"));
-	}
+                        .fromHtml("&nbsp;&nbsp;&nbsp;&nbsp;ä¸œé£Žå¤œæ”¾èŠ±åƒæ ‘<sup><small><small>ã€”1ã€•</small></small></sup>ï¼Œæ›´å¹è½ã€æ˜Ÿå¦‚é›¨<sup><small><small>ã€”2ã€•</small></small></sup>ã€‚å®é©¬é›•è½¦é¦™æ»¡è·¯ã€‚å‡¤ç®«å£°åŠ¨ï¼ŒçŽ‰å£¶å…‰è½¬ï¼Œä¸€å¤œé±¼é¾™èˆž<sup><small><small>ã€”3ã€•</small></small></sup>ã€‚  è›¾å„¿é›ªæŸ³é»„é‡‘ç¼•<sup><small><small>ã€”4ã€•</small></small></sup>ï¼Œç¬‘è¯­ç›ˆç›ˆæš—é¦™åŽ»ã€‚ä¼—é‡Œå¯»ä»–åƒç™¾åº¦ï¼Œè“¦ç„¶å›žé¦–ï¼Œé‚£äººå´åœ¨ï¼Œç¯ç«é˜‘çŠå¤„<sup><small><small>ã€”5ã€•</small></small></sup>ã€‚"));
+    }
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
